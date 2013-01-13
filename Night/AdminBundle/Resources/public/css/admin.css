@@ -1,0 +1,72 @@
+.line-through {
+  text-decoration: line-through;
+}
+.updated_at {
+  display: none;
+}
+.hidden {
+  display: none !important;
+}
+.sonata-ba-list img {
+  height: 60px;
+  width: 90px;
+}
+.form-delete-box {
+  margin-left: 160px;
+}
+.form-delete-box label {
+  display: inline !important;
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.form-delete-box input {
+  display: inline !important;
+  margin: 0 !important;
+  padding-right: 5px !important;
+  vertical-align: center !important;
+}
+.file-loaded {
+  margin: 0 !important;
+}
+.file-loaded p {
+  margin: 5px 0 !important;
+}
+.sonata-collection-row {
+  margin-top: 9px !important;
+  margin-left: 160px !important;
+}
+.sonata-collection-row:first-child {
+  margin-left: 0 !important;
+}
+.sonata-collection-row:first-child .btn {
+  margin: 0 0 0 20px !important;
+}
+.sonata-collection-row .btn {
+  margin: 0 !important;
+}
+.sonata-collection-row >a,
+.sonata-collection-row >div {
+  display: inline-block !important;
+}
+.sonata-collection-row div label.control-label,
+.sonata-collection-row div div {
+  display: inline-block;
+  float: none;
+}
+.sonata-collection-row div label {
+  padding-right: 5px !important;
+  width: 50px !important;
+}
+.sonata-collection-row div input[type="text"] {
+  height: 30px !important;
+}
+.btn-first {
+  margin: 10px 0 0 20px !important;
+}
+.btn-sibling {
+  margin: 10px 0 0 160px;
+}
+.sonata-collection-add {
+  margin: 10px 0 0 160px;
+}

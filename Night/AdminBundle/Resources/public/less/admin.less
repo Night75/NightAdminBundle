@@ -1,0 +1,117 @@
+//================ ================================================== ====================
+//									     STYLES GENERAUX
+//================ ================================================== ====================
+
+@L-label-adm: 160px;
+
+.line-through{
+	text-decoration: line-through;
+}
+
+.updated_at{
+	display: none;
+}
+
+
+.hidden{
+	display: none !important;
+}
+
+//================ ================================================== ====================
+//											   PAGE LIST
+//================ ================================================== ====================
+.sonata-ba-list{
+
+	img{
+		height: 60px;
+		width: 90px;
+	}
+
+
+}
+
+//================ ================================================== ====================
+//											   PAGE EDIT
+//================ ================================================== ====================
+
+//__________________ ----------------- ************  FORMES CUSTOMS
+ 
+// ===== Widget delete_box
+.form-delete-box{
+	margin-left: @L-label-adm;
+
+	label{
+		display: inline !important;
+		float: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	input{
+		display: inline !important;
+		margin: 0 !important;
+		padding-right: 5px !important;
+		vertical-align: center !important;
+	}
+}
+
+// ===== Extension filename
+.file-loaded{
+	margin: 0 !important;
+	
+	p{
+		margin: 5px 0 !important;
+	}
+}
+
+
+// ===== Sonata collection row
+.sonata-collection-row{
+	margin-top: 9px !important;
+	margin-left: @L-label-adm !important;
+
+	&:first-child{
+		margin-left: 0 !important;
+		.btn{
+			margin: 0 0 0 20px !important;
+		}
+	}
+
+	.btn{
+		margin: 0 !important;
+	}
+
+	>a, >div{
+		display: inline-block !important;
+	}
+	
+
+	div{
+		label.control-label, div{
+			display: inline-block;
+			float: none;
+		}
+
+		label{
+			padding-right: 5px !important;
+			width: 50px !important;
+		}
+		
+		input[type="text"]{
+			height: 30px !important;
+		}
+	}
+}
+
+.btn-first{
+	margin: 10px 0 0 20px !important;
+}
+
+.btn-sibling{
+	margin: 10px 0 0 @L-label-adm;
+}
+
+.sonata-collection-add{
+	.btn-sibling;
+}
+
